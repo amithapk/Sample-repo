@@ -12,9 +12,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Controller
 public class ControllerDemo {
-	
-	
-	
+		
 @Autowired
 	TestDaoImpl testDaoImpl;
 
@@ -23,4 +21,5 @@ public class ControllerDemo {
 		//return testDaoImpl.getEmployee();
 		return testDaoImpl.getEmp(names);
 	}
+	
 }
